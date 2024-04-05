@@ -87,7 +87,7 @@ public class MiniProject {
 		System.out.println("MINI-PROJECT");
 		
 		// READING EXCEL FILE using APACHE POI
-		FileInputStream file = new FileInputStream("C:\\Users\\2318829\\eclipse-workspace\\seleniumkv\\src\\test\\java\\mini_project\\MiniProjectData.xlsx");
+		FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\mini_project\\MiniProjectData.xlsx");
 		
 		// giving file reference to workbook
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
