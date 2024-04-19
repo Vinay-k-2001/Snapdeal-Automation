@@ -1,4 +1,4 @@
-# Selenium WebDriver and Apache POI Automation Testing Project
+# SanpDeal Automation
 
 This project demonstrates the use of Selenium WebDriver and Apache POI for automation testing. The project is implemented in Java.
 
